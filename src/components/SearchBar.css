@@ -1,0 +1,50 @@
+body {
+    background-color:#0c0c0c;
+    color: #e0d7d7;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.searchbar {
+    display : flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 8px 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.searchbar:hover {
+    transform: translateY(-4px)scale(1.0);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    background-color: #f0f8ff;
+}
+
+input {
+    padding: 6px 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline:none;
+    border-color:1e90ff;
+}
+
+button {
+    padding: 6px 14px;
+    background-color: #1e90ff;
+    border: none;
+    color: #ccc;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0f6ad1;
+}

@@ -1,0 +1,97 @@
+/* App.css */
+
+/* Main app container */
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #1e90ff;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  background-color: #1e90ff;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0f6ad1;
+}
+
+/* Inputs */
+input[type="text"], input[type="search"] {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="search"]:focus {
+  outline: none;
+  border-color: #1e90ff;
+}
+
+/* Recipe List container (optional override) */
+.recipeList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+  .app {
+    margin: 20px 10px;
+    padding: 0 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 10px 14px;
+    font-size: 1rem;
+  }
+
+  input[type="text"], input[type="search"] {
+    max-width: 100%;
+  }
+
+  .recipeList {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0;
+  }
+}
