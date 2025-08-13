@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SearchBar from '../components/SearchBar';
+import SearchBar from '../components/SearchBar.jsx';
 import RecipeList from '../components/RecipeList';
 import CartChat from '../components/CartChat';
 
