@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SearchBar from '../components/SearchBar';
+import SearchBar from '../components/SearchBarearchBar';
 import RecipeList from '../components/RecipeList';
 import CartChat from '../components/CartChat';
 
@@ -8,7 +8,7 @@ function Home() {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [cart, setCart] = useState([]);  // fixed name here
+  const [cart, setCart] = useState([]); 
 
   const handleBuy = (item) => {
     setCart(prev => [...prev, item]);
