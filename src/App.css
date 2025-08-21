@@ -7,15 +7,18 @@
   padding: 0 20px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
-  background-color: #fafafa;
+  color: #131212;
+  background-color: #f5f3f3;
   min-height: 100vh;
 }
 
 /* Headings */
 h1, h2, h3 {
-  color: #1e90ff;
+  background: linear-gradient(135deg, #1e90ff, #00bfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
+  font-weight: 800;
 }
 
 /* Paragraphs */
@@ -34,6 +37,10 @@ button {
   font-weight: 600;
   border-radius: 6px;
   transition: background-color 0.3s ease;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 button:hover {

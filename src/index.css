@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f1ecec;
+  background: linear-gradient(135deg, #e9e8eb, #f8f9fa);
   margin: 0;
   padding: 20px;
 }
@@ -12,6 +12,12 @@ h1 {
 input {
   padding: 8px;
   margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
 button {

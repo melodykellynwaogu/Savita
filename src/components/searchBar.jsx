@@ -13,7 +13,7 @@ function SearchBar({ query, setQuery, onSearch }) {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search recipes..."
+        placeholder="Search recipes..." required
       />
       <button type="submit">Search</button>
     </form>

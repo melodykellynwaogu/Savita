@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(3, 3, 36);
+    background: linear-gradient(135deg, #d2eef5, #1025e6);
 }
 .card {
     border: 1px solid #ddd;
