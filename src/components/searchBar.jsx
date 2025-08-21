@@ -1,5 +1,5 @@
 import React from 'react';
-import './SearchBar.css';
+import './Input.css';
 
 function SearchBar({ query, setQuery, onSearch }) {
   const handleSubmit = (e) => {
