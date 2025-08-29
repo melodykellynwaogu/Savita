@@ -8,7 +8,9 @@ function CartChat({ cart, onRemove }) {
       maxHeight: 300,
       overflowY: 'auto',
       backgroundColor: '#fafafa',
+      textAlign: 'center',
       borderRadius: '8px',
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
     }}>
       <h3>Purchased Items</h3>
       {cart.length === 0 && <p>No items bought yet.</p>}

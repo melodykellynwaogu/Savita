@@ -5,3 +5,8 @@
   justify-content: center; /* center cards horizontally */
   padding: 20px 0;
 }
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
